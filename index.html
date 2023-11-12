@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>電卓</title>
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input id="result" type="text" >
+        </div>
+        <div class="btns">
+            <button onclick="getNumber(7)">7</button>
+            <button onclick="getNumber(8)">8</button>
+            <button onclick="getNumber(9)">9</button>
+            <button onclick="getOperator('+')">+</button>
+            <button onclick="getNumber(4)">4</button>
+            <button onclick="getNumber(5)">5</button>
+            <button onclick="getNumber(6)">6</button>
+            <button onclick="getOperator('-')">-</button>
+            <button onclick="getNumber(1)">1</button>
+            <button onclick="getNumber(2)">2</button>
+            <button onclick="getNumber(3)">3</button>
+            <button onclick="getOperator('*')">*</button>
+            <button onclick="getZero(0)">0</button>
+            <button onclick="getZero('00')">00</button>
+            <button onclick="getPeriod('.')">.</button>
+            <button onclick="getOperator('/')">/</button>
+            <button onclick="allClear()">AC</button>
+            <button onclick="calculate()">=</button>
+        </div>
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
+
